@@ -1,0 +1,2 @@
+# コマンド：bundle exec foreman start -f Procfile.dev
+web: bin/rails server -p 3000
