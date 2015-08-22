@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/yakiimo23/Msche/issues"
   },
-  "homepage": "https://github.com/yakiimo23/Msche#readme"
+  "homepage": "https://github.com/yakiimo23/Msche#readme",
+  "dependencies": {
+    "webpack": "^1.11.0"
+  }
 }
