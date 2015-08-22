@@ -18,8 +18,8 @@ config.output = {
 config.plugins = [new webpack.HotModuleReplacementPlugin()];
 
 config.module.loaders.push(
-  {test: /\.jsx?$/, loaders: ['react-hot', 'babel'], exclude: /node_modules/},
-  {test: /\.css$/, loader: 'style-loader!css-loader'}
+  { test: /\.jsx?$/, loaders: ['react-hot', 'babel'], exclude: /node_modules/ },
+  { test: /\.css$/, loader: 'style-loader!css-loader' }
 );
 
 module.exports = config;

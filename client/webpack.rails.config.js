@@ -14,7 +14,8 @@ config.output = {
 config.externals = { jquery: 'var jQuery' };
 
 config.module.loaders.push(
-  { test: /\.jsx$/, loader: 'babel-loader' }
+  { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' },
+  { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
 );
 
 module.exports = config;
