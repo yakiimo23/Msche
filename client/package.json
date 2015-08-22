@@ -1,0 +1,25 @@
+{
+  "name": "msche",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakiimo23/Msche.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yakiimo23/Msche/issues"
+  },
+  "homepage": "https://github.com/yakiimo23/Msche#readme"
+}
