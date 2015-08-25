@@ -8,7 +8,7 @@ config.entry.push('./scripts/rails_only');
 
 config.output = {
   filename: 'bundle.js',
-  path: '../app/assets/javascripts/'
+  path: '../app/assets/javascripts/',
 };
 
 config.externals = { jquery: 'var jQuery' };
