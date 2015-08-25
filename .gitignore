@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 vendor/bundle
+node_modules
+npm-debug.log
+bundle.js
