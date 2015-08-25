@@ -1,0 +1,42 @@
+AllCops:
+  Exclude:
+    - "vendor/**/*" # rubocop config/default.yml
+    - "db/schema.rb"
+  DisplayCopNames: true
+
+##################### Style ##################################
+
+  # redirect_to xxx and return のイディオムを維持したい
+  Style/AndOr:
+    EnforcedStyle: conditionals
+
+  # 日本語のコメントを許可する
+  Style/AsciiComments:
+    Enabled: false
+
+  # ドキュメントの無い public class を許可する
+  Style/Documentation:
+    Enabled: false
+
+  # if 文の中に 3 行程度のブロックを書くぐらいは許容した方が現実的
+  Style/GuardClause:
+    MinBodyLength: 5
+
+  # 条件式の方を意識させたい場合には後置の if/unless を使わない方が分かりやすい
+  Style/IfUnlessModifier:
+    Enabled: false
+
+  # has_ から始まるメソッドは許可する
+  Style/PredicateName:
+    NamePrefixBlacklist:
+      - "is_"
+      - "have_"
+    NamePrefix:
+      - "is_"
+      - "have_"
+
+  # * 同名のメソッドがある場合にローカル変数に `_` を付ける
+  # * 一時変数として `_` を付ける
+  # というテクニックは頻出する
+  Lint/UnderscorePrefixedVariableName:
+    Enabled: false
