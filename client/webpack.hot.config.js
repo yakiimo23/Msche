@@ -1,7 +1,6 @@
 // Run like this:
 // cd client && node server.js
 
-const path = require('path');
 const config = require('./webpack.common.config');
 const webpack = require('webpack');
 
