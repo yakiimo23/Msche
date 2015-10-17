@@ -9,7 +9,7 @@ const server = new WebpackDevServer(webpack(config), {
   stats: {colors: true},
 });
 
-server.listen(3000, 'localhost', function(err) {
+server.listen(4000, 'localhost', function(err) {
   if (err) {
     console.log(err);
   }
